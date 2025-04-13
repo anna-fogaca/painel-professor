@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronograma de Aulas</title>
+    <link rel="stylesheet" href="cronograma.css">
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="adicionar.html">Adicionar</a></li>
+          <li><a href="cronograma.html">Cronograma</a></li>
+          <li><a href="dinamica.html">Dinâmica</a></li>
+        </ul>
+      </nav>
+    <header>
+        <h1>Cronograma de Aulas</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Adicionar Aula</h2>
+            <form id="form-cronograma">
+                <label for="data">Data:</label>
+                <input type="date" id="data" required>
+                
+                <label for="tema">Tema da Aula:</label>
+                <input type="text" id="tema" required>
+                
+                <label for="atividade">Atividade/Exercício:</label>
+                <input type="text" id="atividade" required>
+                
+                <label for="avaliacao">Data de Avaliação:</label>
+                <input type="date" id="avaliacao">
+                
+                <button type="submit">Adicionar ao Cronograma</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Cronograma Atual</h2>
+            <div id="lista-cronograma"></div>
+        </section>
+    </main>
+
+    <script src="cronograma.js"></script>
+</body>
+</html>

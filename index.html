@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Painel de Professor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="adicionar.html">Adicionar</a></li>
+          <li><a href="cronograma.html">Cronograma</a></li>
+          <li><a href="dinamica.html">Dinâmica</a></li>
+        </ul>
+      </nav>
+      
+  <h1>Dashboard - Profª Anna</h1>
+
+  <div class="dia-selector">
+    <label for="dia-selecionado">Selecionar dia:</label>
+    <select id="dia-selecionado">
+      <option value="1">Segunda-feira</option>
+      <option value="2">Terça-feira</option>
+      <option value="3">Quarta-feira</option>
+      <option value="4">Quinta-feira</option>
+      <option value="5">Sexta-feira</option>
+    </select>
+  </div>
+
+  <div class="aulas-do-dia">
+    <h2>Aulas do dia selecionado</h2>
+    <div id="lista-aulas" class="aulas-grid"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

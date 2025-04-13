@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adicionar Aula</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="adicionar.html">Adicionar</a></li>
+          <li><a href="cronograma.html">Cronograma</a></li>
+          <li><a href="dinamica.html">Dinâmica</a></li>
+        </ul>
+      </nav>
+      
+    <form class="add-form" id="form-aula">
+        <h3>Adicionar aula</h3>
+        
+        <select id="disciplina">
+            <option value="Análise e Projeto de Sistemas">Análise e Projeto de Sistemas</option>
+            <option value="Desenvolvimento de Sistemas">Desenvolvimento de Sistemas</option>
+            <option value="Banco de Dados">Banco de Dados</option>
+            <option value="Programação Mobile">Programação Mobile</option>
+            <option value="Programação Back-End">Programação Back-End</option>
+            <option value="Pensamento Lógico I">Pensamento Lógico I</option>
+            <option value="HORA ATIVIDADE">H.A</option>
+        </select>
+          
+        <select id="turma">
+            <option value="9ºB">9ºB</option>
+            <option value="2ºTDS-A">2ºTDS-A</option>
+            <option value="2ºTDS-D">2ºTDS-C</option>
+            <option value="3ºTDS-C">3ºTDS-C</option>
+            <option value="3ºTDS-D">3ºTDS-D</option>
+            <option value="HORA ATIVIDADE">H.A</option>
+        </select>
+          
+        <select id="colegio">
+            <option value="Colégio Est. Profº Alcyone">Colégio Est. Profº Alcyone</option>
+            <option value="Colégio Est. Avelino Viera">Colégio Est. Avelino Viera</option>
+            <option value="Colégio Est. Profº Loureiro">Colégio Est. Profº Loureiro</option>
+        </select>
+          
+        <input type="time" id="horario" required />
+    
+        <select id="dia">
+          <option value="1">Segunda-feira</option>
+          <option value="2">Terça-feira</option>
+          <option value="3">Quarta-feira</option>
+          <option value="4">Quinta-feira</option>
+          <option value="5">Sexta-feira</option>
+        </select>
+    
+        <button type="submit">Salvar aula</button>
+      </form>
+      <script src="script.js"></script>
+</body>
+</html>
