@@ -2,7 +2,7 @@
 
 [![Status](https://img.shields.io/badge/status-em%20desenvolvimento-red)]()
 [![Feito por Educadora](https://img.shields.io/badge/feito%20por-educadora%20da%20rede%20pública-lightgrey)]()
-[![Stack](https://img.shields.io/badge/HTML-CSS-JS-orange)]()
+[![Stack](https://img.shields.io/badge/Stack-HTML%20%7C%20CSS%20%7C%20JS-orange)]()
 
 ---
 
