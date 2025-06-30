@@ -1,25 +1,69 @@
+# 🧑‍🏫 Painel de Professor – Sistema de Gestão Docente
 
-# Painel de Professor
+[![Status](https://img.shields.io/badge/status-em%20desenvolvimento-red)]()
+[![Feito por Educadora](https://img.shields.io/badge/feito%20por-educadora%20da%20rede%20pública-lightgrey)]()
+[![Stack](https://img.shields.io/badge/HTML-CSS-JS-orange)]()
 
-Projeto desenvolvido utilizando front-end (HTML, CSS e JavaScript), inspirado na interface do atual RCO (Registro de Classe Online), sistema utilizado pelos professores do estado do Paraná para acessar seus livros de classe online.
+---
 
-# Ideia
+## 💡 Visão Geral
 
-Atualmente, o RCO não oferece suporte para a gestão das Horas Atividades (aulas onde o professor não entra em sala, mas precisa cumprir no colégio). Com isso em mente, desenvolvi este sistema pessoal para cadastrar minhas Horas Atividades, criar um cronograma pessoal de aulas (não levando em consideração o cronograma oficial da SEED-PR) e incluir outras funcionalidades que atendem à minha dinâmica de aula.
+Este projeto foi desenvolvido com base na interface do sistema **RCO (Registro de Classe Online)** utilizado pelos professores da rede pública do Paraná. A proposta é criar uma ferramenta complementar e personalizada, com funcionalidades voltadas à organização da rotina docente.
 
-# Objetivo do Projeto
-O objetivo principal deste projeto é construir uma ferramenta simples e prática para gestão das atividades docentes. Além disso, o sistema também é voltado para os alunos, com funcionalidades como:
+---
 
-- Verificação do cronograma de aulas.
-- Acompanhamento das avaliações do mês/semestre.
-- Calculo da dinâmica que utilizo em sala. 
+## 🎯 Objetivos
 
-## Stack utilizada
+- Registrar e acompanhar as **Horas Atividade**
+- Montar um **cronograma pessoal de aulas**
+- Gerenciar informações úteis sobre a rotina docente
+- Disponibilizar funcionalidades que também atendam aos estudantes
 
-**Front-end:** HTML, CSS
+---
 
-**Back-end:** JavaScript
+## 📚 Funcionalidades
 
-## Referência
+Para professores:
 
- - [RCO-SEED-PR](https://rco.paas.pr.gov.br/)
+- Cadastro e visualização de **Horas Atividade**
+- Planejamento personalizado de aulas
+- Organização por turnos, disciplinas e atividades
+
+Para alunos:
+
+- Acesso ao **cronograma de aulas**
+- Acompanhamento de **avaliações** por período
+- Consulta à **dinâmica aplicada em sala**
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Front-end:** HTML, CSS  
+- **Lógica e interatividade:** JavaScript (executado no navegador)
+
+*Atualmente, o sistema é local e não utiliza banco de dados.*
+
+---
+
+## 📌 Referência Visual
+
+Este projeto foi inspirado na interface do sistema **RCO-SEED-PR**, mas não é vinculado ou integrado a nenhuma plataforma oficial.
+
+---
+
+## 👩‍💻 Sobre a Autora
+
+**Anna Flávia Fogaça**  
+Professora da rede estadual do Paraná | Engª de Computação
+
+📧 [anna.flavia.fogaca@escola.pr.gov.br](mailto:anna.flavia.fogaca@escola.pr.gov.br)
+
+---
+
+## 📜 Licença
+
+Distribuído sob a Licença MIT.  
+© 2025 Anna Flávia Fogaça
+
+--
