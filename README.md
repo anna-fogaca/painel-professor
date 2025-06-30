@@ -63,7 +63,7 @@ Professora da rede estadual do Paraná | Engª de Computação
 
 ## 📜 Licença
 
-Distribuído sob a Licença MIT.  
+Distribuído sob a Licença GPL-3.0 license.  
 © 2025 Anna Flávia Fogaça
 
 --
